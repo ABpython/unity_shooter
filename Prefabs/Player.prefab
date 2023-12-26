@@ -2002,10 +2002,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.4
-  m_Height: 1.6851141
+  m_Radius: 0.27193826
+  m_Height: 1.8059931
   m_Direction: 1
-  m_Center: {x: 0.08447477, y: 0.8425571, z: 0}
+  m_Center: {x: 0.020755768, y: 0.8395605, z: 0}
 --- !u!1 &7751130390613450419
 GameObject:
   m_ObjectHideFlags: 0
@@ -2515,7 +2515,8 @@ PrefabInstance:
       propertyPath: PlayerCamera
       value: 
       objectReference: {fileID: 729253205685084493}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7510017144742379640, guid: b26a2495c6c9e454ca47326a65d54a77, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
