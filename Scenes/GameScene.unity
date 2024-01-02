@@ -123,6 +123,25 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &259057876 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4918134020431893911, guid: 6337fe3ff613bb54f871f7dae9ac724e, type: 3}
+  m_PrefabInstance: {fileID: 1004565674}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &259057880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259057876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01d999f7160e5d43b96c360d8a23cd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 1584832007}
+  range: 50
 --- !u!1 &586187070
 GameObject:
   m_ObjectHideFlags: 0
@@ -371,22 +390,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6460515751884689834, guid: 6337fe3ff613bb54f871f7dae9ac724e, type: 3}
-      propertyPath: m_Height
-      value: 1.8059931
-      objectReference: {fileID: 0}
-    - target: {fileID: 6460515751884689834, guid: 6337fe3ff613bb54f871f7dae9ac724e, type: 3}
-      propertyPath: m_Radius
-      value: 0.27193826
-      objectReference: {fileID: 0}
-    - target: {fileID: 6460515751884689834, guid: 6337fe3ff613bb54f871f7dae9ac724e, type: 3}
-      propertyPath: m_Center.x
-      value: 0.020755768
-      objectReference: {fileID: 0}
-    - target: {fileID: 6460515751884689834, guid: 6337fe3ff613bb54f871f7dae9ac724e, type: 3}
-      propertyPath: m_Center.y
-      value: 0.8395605
-      objectReference: {fileID: 0}
     - target: {fileID: 7244713495112906444, guid: 6337fe3ff613bb54f871f7dae9ac724e, type: 3}
       propertyPath: m_Name
       value: Player
@@ -394,7 +397,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4918134020431893911, guid: 6337fe3ff613bb54f871f7dae9ac724e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 259057880}
   m_SourcePrefab: {fileID: 100100000, guid: 6337fe3ff613bb54f871f7dae9ac724e, type: 3}
 --- !u!20 &1584832007 stripped
 Camera:
